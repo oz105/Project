@@ -13,5 +13,8 @@ double mul(double x , int y) {
 }
 
 double div(double x, int y) {
-    return x/y ;
+    if(y != 0 ) {
+        return x/y ;
+    }
+    return 0.0 ;
 }
